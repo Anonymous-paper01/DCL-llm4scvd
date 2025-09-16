@@ -2,9 +2,7 @@
 
 This is code and dataset respository for the academic paper "Decoupled Contrastive Learning with LLMs for Long-Tailed Smart Contract Vulnerability Detection".
 
-# this is the readme for paper llm4sc
 # this is the commands for supervised finetuning 
-# 22GB
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 swift sft \
     --model Qwen/Qwen3-8B \
